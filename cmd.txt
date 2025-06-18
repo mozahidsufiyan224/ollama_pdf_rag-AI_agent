@@ -1,0 +1,10 @@
+py -m venv venv
+.\venv\Scripts\activate
+source venv/bin/activate  # On Windows: .\venv\Scripts\activate
+pip install -r requirements.txt
+
+PS C:\a_llm> py -m venv venv
+PS C:\a_llm> .\venv\Scripts\activate
+Get-ExecutionPolicy
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process
