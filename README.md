@@ -1,5 +1,5 @@
 # main.py need to run for the AI Agent
-The repository ollama_pdf_rag-AI_agent appears to be a project that implements a Retrieval-Augmented Generation (RAG) system using Ollama, a platform for running large language models locally. Here's a breakdown of how it works:
+[The repository ollama_pdf_rag-AI_agent appears to be a project that implements a Retrieval-Augmented Generation (RAG) system using Ollama, a platform for running large language models locally. Here's a breakdown of how it works:
 
 🧠 Core Concept: Retrieval-Augmented Generation (RAG)
 RAG enhances the capabilities of language models by allowing them to retrieve relevant information from external sources (like PDFs) before generating a response. This makes the AI more accurate and context-aware.
@@ -17,7 +17,9 @@ Query Handling
 
 When a user asks a question, the query is also embedded.
 The system searches the vector database for the most relevant chunks of text.
-Response Generation
+Response Generation](https://github.com/mozahidsufiyan224/stock_advisor_AI_consultant/blob/main/app_com.py
+
+)
 
 The retrieved chunks are passed to a local LLM (e.g., llama3 via Ollama).
 The model uses this context to generate a grounded and accurate response.
